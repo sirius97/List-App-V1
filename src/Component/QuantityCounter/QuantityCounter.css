@@ -1,0 +1,17 @@
+.Counter {
+    display : flex;
+    text-align: center;
+    padding: 1px;
+
+}
+
+.Counter button{
+    border-radius: 60%;
+    transition-duration: 0.4s;
+    padding : 10px;
+}
+
+.Counter button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

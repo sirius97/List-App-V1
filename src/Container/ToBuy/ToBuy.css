@@ -1,0 +1,45 @@
+.ToBuy{
+    text-align: center;
+}
+
+.buttonA{
+
+    border-radius:20%;
+    padding:10px;
+    font-family:Lobster;
+    font-size:19px;
+    margin:10px;
+}
+
+.ToBuy button:hover{
+
+    background-color: coral;
+    color: cornsilk;
+}
+
+.Bought {
+    text-align: center;
+}
+
+.Bought button:hover{
+    background-color: hotpink;
+    color: black;
+}
+
+@media (max-width: 400px){
+    .buttonA{
+
+        border-radius:20%;
+        padding:7px;
+        font-size:19px;
+        margin:5px;
+    }
+
+    .Bought button {
+        padding: 7px;
+    }
+
+    .ToBuy {
+        padding: 10px;
+    }
+}
